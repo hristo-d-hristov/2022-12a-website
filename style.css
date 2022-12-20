@@ -1,0 +1,25 @@
+h1 {
+    color: yellow;
+}
+
+a > img {
+    width: 20px;
+}
+img {
+    width: 400px;
+}
+video {
+    width: 500px;
+}
+iframe {
+    width: 420px;
+    height: 315px;
+}
+#vaznikvane {
+    width: 300px;
+    text-align: center;
+}
+.sini {
+    color: blue;
+    background-color: lightblue;
+}
