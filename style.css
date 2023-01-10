@@ -1,5 +1,8 @@
 h1 {
-    color: yellow;
+    /*color: AntiqueWhite;*/
+    /*color: rgb(100,50,10);*/
+    color: rgb(32,164,15);
+    /*color: #20a40f;*/
 }
 
 a > img {
@@ -19,10 +22,42 @@ iframe {
     width: 300px;
     text-align: center;
 }
-.sini {
+.sini:hover {
     color: blue;
     background-color: lightblue;
 }
-#me p {
+#me ~ p {
     color: orange;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:active {
+    color: white;
+}
+
+p::first-line {
+    color: purple;
+}
+p::first-letter {
+    color: red;
+}
+p::selection {
+    background-color: yellow;
+    color: purple;
+}
+a[href="index.html"] {
+    font-size: 30px;
+}
+p {
+   /*font-family: 'VelekaRegular';*/
+   font-family: "VelekaRegular", serif;
+   font-weight: normal;
+   font-style: normal;
 }
