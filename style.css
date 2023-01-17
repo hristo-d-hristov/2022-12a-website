@@ -4,24 +4,6 @@ h1 {
     color: rgb(32,164,15);
     /*color: #20a40f;*/
 }
-
-a > img {
-    width: 20px;
-}
-img {
-    width: 400px;
-}
-video {
-    width: 500px;
-}
-iframe {
-    width: 420px;
-    height: 315px;
-}
-#vaznikvane {
-    width: 300px;
-    text-align: center;
-}
 .sini:hover {
     color: blue;
     background-color: lightblue;
