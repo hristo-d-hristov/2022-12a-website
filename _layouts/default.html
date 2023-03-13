@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<link rel="icon" type="image/png" href="favicon.png">
+		<link rel="stylesheet" href="picnic.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fontlibrary.org//face/veleka">
+	</head>
+	<body>
+		<nav>
+			<a href="index.html" class="brand">
+				<img class="logo" src="favicon.png" />
+				<span>Aurora</span>
+			</a>
+			<input id="clickMenu" type="checkbox" class="show">
+			<label for="clickMenu" class="burger pseudo button">меню</label>
+
+			<div class="menu">
+				<a href="magnitosfera.html" class="pseudo button">Магнитосфера</a>
+				<a href="slance.html" class="pseudo button">Слънце</a>
+			</div>
+		</nav>
+
+		<h1>{{ page.title }}</h1>
+		{{ content }}
+	</body>
+</html>
