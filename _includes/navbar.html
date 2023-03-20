@@ -7,7 +7,13 @@
 	<label for="clickMenu" class="burger pseudo button">меню</label>
 
 	<div class="menu">
-		<a href="magnitosfera.html" class="pseudo button">Магнитосфера</a>
-		<a href="slance.html" class="pseudo button">Слънце</a>
+		<a href="magnitosfera.html"
+		    class="{% if page.name != 'magnitosfera.html' %}pseudo{% endif %} button">
+		    Магнитосфера
+		</a>
+		<a href="slance.html"
+		    class="{% if page.name != 'slance.html' %}pseudo{% endif %} button">
+		    Слънце
+		</a>
 	</div>
 </nav>
